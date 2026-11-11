@@ -1,0 +1,8 @@
+defaults:
+  - lr_schema
+  - _self_
+model_name: lin-reg
+model_params:
+  _target_: sklearn.linear_model.LinearRegression
+  fit_intercept: true
+

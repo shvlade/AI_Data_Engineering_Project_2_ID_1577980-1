@@ -1,0 +1,11 @@
+defaults:
+  - gbr_schema
+  - _self_
+model_name: gbr
+model_params:
+  _target_: sklearn.ensemble.GradientBoostingRegressor
+  n_estimators: 150
+  max_depth: 3
+  learning_rate: 0.05
+  random_state: 42
+

@@ -1,0 +1,18 @@
+defaults:
+  - base_config
+  - model: lr
+  - split: base
+  - dataset: base
+  - feature: base
+  - _self_
+  - override hydra/job_logging: log
+  - override hydra/hydra_logging: colorlog
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: artefacts/${now:%Y-%m-%d_%H-%M-%S}
+  sweep:
+    dir: artefacts/${now:%Y-%m-%d_%H-%M-%S}
+    subdir: ${hydra.job.override_dirname}
+

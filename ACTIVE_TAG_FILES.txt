@@ -1,0 +1,2 @@
+/private_s21/743a8733-71b2-420d-86dd-7beb89ecd497?path=b34f3d1b-4049-4e35-b59c-9bee785fd9b9/4eee6857-74c8-49fa-bb57-dd8a475a2533/olist_public_dataset.csv
+/private_s21/743a8733-71b2-420d-86dd-7beb89ecd497?path=f797b373-bcbb-4529-9219-f7830446fceb/92c54df3-bb1b-4aa6-9d68-635a719b19bf/product_category_name_translation.csv
